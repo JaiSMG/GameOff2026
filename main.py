@@ -83,7 +83,6 @@ class Camera:
             screen_pos = sprite.rect.topleft - self.offset
             surface.blit(sprite.image, screen_pos)
 
-
 class Enemy(pygame.sprite.Sprite):
     def __init__(self, ):
         pygame.sprite.Sprite.__init__(self)
